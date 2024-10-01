@@ -5,10 +5,10 @@ This project aims to analyze and provide insights into employee demographics, sa
 **Task 1: Employee Gender Distribution Over Time
 Description**
 
-This task involves creating a view named task_1_employee_count to analyze the distribution of employees by gender across different calendar years from 1990 onwards. The SQL query groups employees by year and gender, providing the number of employees for each grouping.
-Query
+*This task involves creating a view named task_1_employee_count to analyze the distribution of employees by gender across different calendar years from 1990 onwards. The SQL query groups employees by year and gender, providing the number of employees for each grouping.*
 
-sql
+
+
 
 **CREATE VIEW task_1_employee_count AS
 SELECT
@@ -23,14 +23,14 @@ HAVING calendar_year >= 1990;**
 
 Purpose
 
-To track how the distribution of male and female employees has changed over the years, helping to identify hiring trends or shifts in workforce composition.
+*To track how the distribution of male and female employees has changed over the years, helping to identify hiring trends or shifts in workforce composition.*
 **Task 2: Active Employees by Department and Year
 Description**
 
-A view named task_2_active_employees is created to identify active employees in each department for every year they were employed. It uses a combination of a cross join to build a timeline and a case statement to mark active status.
-Query
+*A view named task_2_active_employees is created to identify active employees in each department for every year they were employed. It uses a combination of a cross join to build a timeline and a case statement to mark active status.*
 
-sql
+
+
 
 **CREATE VIEW task_2_active_employees AS
 SELECT
@@ -62,14 +62,13 @@ ORDER BY
 
 Purpose
 
-To provide a comprehensive view of employee activity over time, helping to understand workforce allocation across departments and identifying trends in employee tenure.
+*To provide a comprehensive view of employee activity over time, helping to understand workforce allocation across departments and identifying trends in employee tenure.*
 **Task 3: Average Salaries by Department, Gender, and Year
 Description**
 
-This task generates a query that groups and calculates the average salary of employees by department, gender, and year. The results are limited to calendar years up until 2002. The query helps in analyzing salary trends and possible discrepancies between genders.
-Query
+*This task generates a query that groups and calculates the average salary of employees by department, gender, and year. The results are limited to calendar years up until 2002. The query helps in analyzing salary trends and possible discrepancies between genders.*
 
-sql
+
 
 **SELECT 
     e.gender,
@@ -87,14 +86,13 @@ ORDER BY d.dept_no;**
 
 Purpose
 
-To gain insights into the average salary distribution across departments and genders over the years, providing valuable information for understanding compensation practices and identifying any gender pay gap.
+*To gain insights into the average salary distribution across departments and genders over the years, providing valuable information for understanding compensation practices and identifying any gender pay gap.*
 **Task 4: Filtering Employees Based on Salary Range
 Description**
 
-A stored procedure named filter_salary is created to dynamically filter employees based on a given salary range. This allows users to quickly analyze the average salaries of different departments for male and female employees within any specified salary range.
-Query
+*A stored procedure named filter_salary is created to dynamically filter employees based on a given salary range. This allows users to quickly analyze the average salaries of different departments for male and female employees within any specified salary range.*
 
-sql
+
 
 **DROP PROCEDURE IF EXISTS filter_salary;***
 
@@ -134,4 +132,4 @@ How to Use the Dashboard
 
 **Conclusion**
 
-This project offers a comprehensive look at how to perform detailed analysis on employee data by leveraging SQL views, stored procedures, and Tableau visualizations. The queries and dashboards provide insights into gender distribution, active employee tracking by department, salary trends, and dynamic salary filtering.
+*This project offers a comprehensive look at how to perform detailed analysis on employee data by leveraging SQL views, stored procedures, and Tableau visualizations. The queries and dashboards provide insights into gender distribution, active employee tracking by department, salary trends, and dynamic salary filtering.*
