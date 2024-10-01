@@ -2,6 +2,8 @@
 **Project Overview**
 
 This project aims to analyze and provide insights into employee demographics, salary distributions, and departmental structures using SQL queries and visualizations. The dataset contains employee information, department details, salary data, and records of employee movement across different departments. The project includes creating views, stored procedures, and visualizations in Tableau to enhance understanding and dynamic analysis.
+
+
 **Task 1: Employee Gender Distribution Over Time
 Description**
 
