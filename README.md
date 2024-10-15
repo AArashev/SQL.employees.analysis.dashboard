@@ -26,6 +26,7 @@ HAVING calendar_year >= 1990;**
 Purpose
 
 *To track how the distribution of male and female employees has changed over the years, helping to identify hiring trends or shifts in workforce composition.*
+
 **Task 2: Active Employees by Department and Year
 Description**
 
@@ -65,6 +66,8 @@ ORDER BY
 Purpose
 
 *To provide a comprehensive view of employee activity over time, helping to understand workforce allocation across departments and identifying trends in employee tenure.*
+
+
 **Task 3: Average Salaries by Department, Gender, and Year
 Description**
 
@@ -89,6 +92,8 @@ ORDER BY d.dept_no;**
 Purpose
 
 *To gain insights into the average salary distribution across departments and genders over the years, providing valuable information for understanding compensation practices and identifying any gender pay gap.*
+
+
 **Task 4: Filtering Employees Based on Salary Range
 Description**
 
@@ -124,6 +129,7 @@ How to Use the Dashboard
 
     Download or Access the Tableau Dashboard: The .twb file included in the repository can be opened using Tableau Desktop.
     Explore the Visualizations: Use filters and interactive elements to explore different aspects of the data, such as gender distribution by year, active employees in departments, and average salary distributions.
+
 
 **How to Use This Project**
 
